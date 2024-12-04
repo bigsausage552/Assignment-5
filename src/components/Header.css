@@ -68,7 +68,7 @@
   padding: 6px;
   border-radius: 28px;
   background: #c8c7c7;
-  transition: background 0.25s;
+  transition: 0.25s;
 }
 
 .search-bar:focus-within {

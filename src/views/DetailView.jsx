@@ -35,7 +35,7 @@ function DetailView() {
             className="detail-view-poster"
           />
           <button className="add-to-cart-button">
-            Add to Cart
+            Watch Now
           </button>
           <p className="detail-info"><span>Overview:</span>{movie.overview}</p>
           <p className="detail-info"><span>Release Date:</span> {movie.release_date}</p>
@@ -60,7 +60,7 @@ function DetailView() {
           )}
         </div>
       ) : (
-        <p className="no-movie-selected">Select a movie to view details.</p>
+        <p className="no-movie-selected">Select to view details</p>
       )}
     </div>
   );

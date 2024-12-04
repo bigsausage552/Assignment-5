@@ -11,7 +11,7 @@ function Header() {
     <div className="navbar">
       <div className="navbar-container">
         <div className="logo-container">
-          <h1 className="logo" onClick={() => navigate("/")}>Flixit</h1>
+          <h1 className="logo" onClick={() => navigate("/")}>NetDix</h1>
         </div>
         <div className="menu-container">
           <ul className="menu-list">
