@@ -1,8 +1,8 @@
 import { useNavigate, Link } from 'react-router-dom';
 import { useState } from 'react';
-import './SignInView.css';
+import './LoginView.css';
 
-function SignInView() {
+function LoginView() {
   const navigate = useNavigate();
   const [pass, setPass] = useState('');
   const password = "iloveyou";
@@ -46,4 +46,4 @@ function SignInView() {
   );
 }
 
-export default SignInView;
+export default LoginView;

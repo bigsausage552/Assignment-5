@@ -1,9 +1,9 @@
 import { useNavigate } from 'react-router-dom';
 import { useState } from 'react';
 import { Link } from 'react-router-dom';
-import './SignUpView.css';
+import './RegisterView.css';
 
-function SignUpView() {
+function RegisterView() {
   const navigate = useNavigate();
 
   const [pass, setPass] = useState('');
@@ -54,4 +54,4 @@ function SignUpView() {
   );
 }
 
-export default SignUpView;
+export default RegisterView;
