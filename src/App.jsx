@@ -16,8 +16,8 @@ function App() {
         <Route path="/signin" element={<LoginView />} />
         <Route path="/signup" element={<RegisterView />} />
         <Route path="/movies" element={<MoviesView />}>
-        <Route path="genre/:genre_id" element={<GenreView />} />
-        <Route path="details/:id" element={<DetailView />} />
+          <Route path="genre/:genre_id" element={<GenreView />} />
+          <Route path="details/:id" element={<DetailView />} />
         </Route>
       </Routes>
     </Router>

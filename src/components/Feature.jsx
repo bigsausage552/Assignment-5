@@ -62,7 +62,7 @@ function Feature() {
 
   return (
     <div className="feature-container">
-      {}
+      { }
       <div className="feature-list-container">
         <div className="titles-container">
           <span className="feature-list-title">Now Playing</span>

@@ -33,7 +33,7 @@ const Footer = () => {
       </div>
       <div className="footerBottom">
         <p>
-        Copyright &copy; 2024; Designed by <span class="designer">David Liu</span>
+          Copyright &copy; 2024; Designed by <span class="designer">David Liu</span>
         </p>
       </div>
     </footer>
