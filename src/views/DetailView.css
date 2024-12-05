@@ -38,13 +38,13 @@
 
 .detail-info span {
   font-weight: bold;
-  color: #007bff;
+  color: #ffa31a;
 }
 
 .trailer-section {
   margin-top: 40px;
   text-align: center;
-  color: #007bff;
+  color: #ffa31a;
 }
 
 .trailer-text {
@@ -60,7 +60,7 @@
 }
 
 .add-to-cart-button {
-  background-color: #007bff;
+  background-color: #ffa31a;
   border: none;
   margin-bottom: 10px;
   padding: 10px 20px;
@@ -75,7 +75,7 @@
 }
 
 .add-to-cart-button:hover {
-  background-color: #024d9c;
+  background-color: #ffa31a;
   border: none;
   padding: 10px 20px;
   border-radius: 5px;
