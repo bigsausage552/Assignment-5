@@ -1,4 +1,4 @@
-import { useEffect, useRef, useState } from "react";
+import { useEffect, useState } from "react";
 import { useNavigate } from "react-router-dom";
 import axios from "axios";
 import "./Feature.css";
@@ -6,23 +6,24 @@ import "./Feature.css";
 function Feature() {
   const [nowPlayingMovies, setNowPlayingMovies] = useState([]);
   const navigate = useNavigate();
+
   useEffect(() => {
     const fetchMovies = async () => {
-      const nowPlayingResponse = await axios.get(
-        `https://api.themoviedb.org/3/movie/now_playing?api_key=${import.meta.env.VITE_TMDB_KEY}`
-      );
-      setNowPlayingMovies(nowPlayingResponse.data.results.slice(0, 4));
+      try {
+        const nowPlayingResponse = await axios.get(
+          `https://api.themoviedb.org/3/movie/now_playing?api_key=${import.meta.env.VITE_TMDB_KEY}`
+        );
 
-      const moviesData = topRatedResponse.data.results;
-      const randomMovies = [];
-      let availableMovies = [...moviesData];
+        const moviesData = nowPlayingResponse.data.results;
 
-      for (let i = 0; i < 10; i++) {
-        const randomIndex = Math.floor(Math.random() * availableMovies.length);
-        randomMovies.push(availableMovies.splice(randomIndex, 1)[0]);
+        const shuffledMovies = moviesData
+          .sort(() => 0.5 - Math.random())
+          .slice(0, 4);
+
+        setNowPlayingMovies(shuffledMovies);
+      } catch (error) {
+        console.error("Error fetching now playing movies:", error);
       }
-
-      setTopRatedMovies(randomMovies);
     };
 
     fetchMovies();
@@ -30,7 +31,6 @@ function Feature() {
 
   return (
     <div className="feature-container">
-      { }
       <div className="feature-list-container">
         <div className="titles-container">
           <span className="feature-list-title">Now Playing</span>
