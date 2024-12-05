@@ -81,13 +81,13 @@ form .sign-in-btn {
   font-weight: 500;
   border-radius: 4px;
   margin: 20px 0 10px;
-  background: rgb(0, 25, 181);
+  background: ffa31a;
   cursor: pointer;
   transition: background-color 0.2s ease;
 }
 
 form .sign-in-btn:hover {
-  background: rgb(0, 16, 122);
+  background: ffa31a;
 }
 
 form .help {

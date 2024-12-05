@@ -16,12 +16,6 @@ function Header() {
         <div className="menu-container">
           <ul className="menu-list">
             <li
-              className={`menu-list-item ${isActive("/") ? "active" : ""}`}
-              onClick={() => navigate("/")}
-            >
-              Home
-            </li>
-            <li
               className={`menu-list-item ${isActive("/movies") ? "active" : ""}`}
               onClick={() => navigate("/movies")}
             >

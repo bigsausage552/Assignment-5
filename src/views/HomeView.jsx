@@ -10,7 +10,6 @@ function HomeView() {
       <Header />
       <Hero />
       <Feature />
-      <Hero />
       <Footer />
     </div>
   )
