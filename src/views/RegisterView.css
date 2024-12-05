@@ -80,17 +80,16 @@ form .sign-up-btn {
   padding: 16px 0;
   font-size: 1rem;
   border: none;
-  color: #fff;
+  color: #1c1a1a;
   font-weight: 500;
   border-radius: 4px;
   margin: 20px 0 10px;
-  background: ffa31a;
   cursor: pointer;
   transition: background-color 0.2s ease, transform 0.2s ease;
 }
 
 form .sign-up-btn:hover {
-  background: ffa31a;
+  background: #ffa31a;
   transform: scale(1.05);
 }
 
@@ -126,6 +125,7 @@ form .help :where(label, a) {
 
 .sign-up p a:hover {
   text-decoration: underline;
+  color: #ffa31a;
 }
 
 @media (max-width: 740px) {

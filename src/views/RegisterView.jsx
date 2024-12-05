@@ -48,7 +48,7 @@ function RegisterView() {
             <Link to="#">Need help?</Link>
           </div>
         </form>
-        <p>Already Have An Account? <Link to="/signin">Sign In</Link></p>
+        <p>Already have an account? <Link to="/signin">Sign In</Link></p>
       </div>
     </div>
   );

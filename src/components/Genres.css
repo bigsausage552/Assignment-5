@@ -21,8 +21,8 @@
 }
 
 .genre-button {
-  background-color: #ffa31a;
-  border: none;
+  background-color: transparent;
+  border: 2px solid #ffa31a; 
   padding: 10px 20px;
   border-radius: 5px;
   color: white;
@@ -41,6 +41,7 @@
 
 .genre-button.active-genre {
   background-color: #ffa31a;
+  border-color: #ffa31a;
   transform: scale(1.05);
 }
 

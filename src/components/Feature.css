@@ -22,6 +22,7 @@
 }
 
 .feature-list-more:hover {
+  color:#ffa31a;
   text-decoration: underline;
   cursor: pointer;
 }
@@ -104,7 +105,7 @@
 }
 
 .feature-list-item-button:hover {
-  background-color: gray;
+  background-color: #ffa31a;
   cursor: pointer;
 }
 

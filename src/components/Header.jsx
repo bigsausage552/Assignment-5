@@ -11,7 +11,7 @@ function Header() {
     <div className="navbar">
       <div className="navbar-container">
         <div className="logo-container" onClick={() => navigate("/")}>
-          <img src="src/imgs/logo.png" alt="NetDix Logo" className="logo-image" />
+          <img src="/src/imgs/logo.png" alt="NetDix Logo" className="logo-image" />
         </div>
         <div className="menu-container">
           <ul className="menu-list">
