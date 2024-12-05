@@ -10,8 +10,8 @@ function Header() {
   return (
     <div className="navbar">
       <div className="navbar-container">
-        <div className="logo-container">
-          <h1 className="logo" onClick={() => navigate("/")}>NetDix</h1>
+        <div className="logo-container" onClick={() => navigate("/")}>
+          <img src="src/imgs/logo.png" alt="NetDix Logo" className="logo-image" />
         </div>
         <div className="menu-container">
           <ul className="menu-list">

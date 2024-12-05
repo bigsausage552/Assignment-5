@@ -40,7 +40,7 @@ function SignInView() {
             <Link to="#">Need help?</Link>
           </div>
         </form>
-        <p>New to NetDix? <Link to="/signup">Sign up now</Link></p>
+        <p>New to NETDIX? <Link to="/signup">Sign up now</Link></p>
       </div>
     </div>
   );

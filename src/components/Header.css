@@ -28,6 +28,12 @@
   cursor: pointer;
 }
 
+.logo-image {
+  height: 40px;
+  width: auto;
+  cursor: pointer;
+}
+
 .menu-container {
   flex: 6;
 }
